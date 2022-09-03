@@ -376,6 +376,8 @@ template {
   display: none;
 }
 
+
+
 [hidden] {
   display: none !important;
 }
@@ -17174,6 +17176,12 @@ a.text-dark:focus {
   --card-bg: #888c96;
   --footer-bg: #0f1113;
 }
+
+.navbar-brand-sub {
+  font-size: 1.1rem;
+  color: var(--secondary-color);
+}
+
 
 .noscroll {
   overflow: hidden;
