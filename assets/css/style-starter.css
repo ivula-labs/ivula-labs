@@ -50,7 +50,7 @@ html {
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: rgba(250, 28, 28, 0);
 }
 
 article,
@@ -17137,6 +17137,7 @@ a.text-dark:focus {
 :root {
   --primary-color: #fe0095;
   --secondary-color: #44d62c;
+  --secondar-logo-color:var(--dark);
   --third-color: #ffc600;
   --primary-dark: #0160e7;
   --secondary-dark:#44d62c;
@@ -17160,6 +17161,7 @@ a.text-dark:focus {
   --primary-color: #fe0095;
   --primary-dark: #0160e7;
   --secondary-color: #44d62c;
+  --secondar-logo-color:var(--light);
   --secondary-dark:#bf2800;
   --third-color: #ffc600;
   --font-color: #c2d0da;
@@ -17441,7 +17443,7 @@ a.link-style1 {
 }
 
 span.w3sub-color {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 p.para-sub {
@@ -17543,7 +17545,7 @@ p.para-sub {
 .mode-container {
   width: 24px;
   height: 24px;
-  padding: 1px 0;
+  padding: 1px 30px;
 }
 
 .gg-sun {
@@ -17839,11 +17841,14 @@ a.navbar-brand img {
 }
 
 .header-w3l .nav-fixed .navbar-expand-lg .navbar-brand {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 
 .header-w3l .nav-fixed .navbar-expand-lg .navbar-brand span {
-  color: var(--primary-color);
+  color: var(--secondar-logo-color);
+}
+.header-w3l .nav-fixed .navbar-expand-lg .navbar-brand-sub {
+  color: var(--secondar-logo-color);
 }
 
 .header-w3l .dropdown-item:hover,
